@@ -1,7 +1,10 @@
 import os
 import shutil
 import time
-
+"""
+    Скрипт для чистки файлов ФШК.
+    Удаляет все файлы и папки старше 30 дней.
+"""
 now = time.time()
 one_month = now-30*24*60*60
 path = r"C:\ar_dicom"
